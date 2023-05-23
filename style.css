@@ -1,0 +1,190 @@
+.d-flex{
+    background-color: #7ecdf5;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar:hover{
+    background-color: #ff9800;
+}
+.dropdown-menu{
+    background-color: #007bff;
+    height: 200px;
+}
+.dropdown-menu a:hover{
+    color: white;
+    background-color: #ff9800;
+}
+.input-group-append{
+    background-color: #ff9800;
+}
+.input-group-append a{
+    text-decoration: none;
+}
+
+
+.col-md-8{
+    background-image:url("picture/poster.jpg");
+    margin-top: 25px;
+    height: 450px;
+}
+h2{
+    color:#ff9800;
+    justify-content: center;
+}
+h3{
+    color: #fefefe;
+}
+.col-md-4{
+    margin-top: 25px;
+    background-color: #7ecdf5;
+}
+.carousel{
+    margin-top: 45px;
+}
+.col-md-3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul.sanpham{
+    padding-top:30px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 25px;
+    background-color: #8e9dad;
+}
+ul.sanpham li{
+    flex-basis: 25%;
+    box-sizing:border-box;
+    padding-right: 25px;
+}
+
+ul.sanpham li img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+ul .sanpham li .sanpham-top img{
+    display: block;
+    align-items: center;
+}
+/* Mua Ngay */
+ul.sanpham li .sanpham-top a.BuyNow{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    background-color:navy;
+    color:greenyellow;
+    padding: 15px 0px;
+    position: relative;
+    border-radius: 15px;
+}
+/* gio hang */
+ul.sanpham li .sanpham-top a.BuyNow1{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    background-color:gold;
+    color:black;
+    padding: 15px 0px;
+    margin-bottom: 55px;
+    border-radius: 15px;
+}
+.sanpham-info{
+    padding-top: 10px;
+    margin:0;
+    font-size: 20px;
+}
+.sanpham-gia {
+    padding-top:10px;
+    color: red;
+    font-size: larger;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+ul.sanpham li .sanpham-info a{
+    text-decoration: none;
+}
+ul.sanpham li .sanpham-info a.sanpham-name{
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+ul.sanpham li .sanpham-top a.BuyNow:hover{
+    background-color:black;
+}
+ul.sanpham li .sanpham-top a.BuyNow1:hover{
+    background-color: aqua;
+}
+/* ngoi sao*/
+ul.sanpham li .ngoisao{
+    font-size: 20px;
+}
+
+#saleoff {
+    background-color: #00bbff;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7ecdf5;
+    padding: 20px;
+    color: #080707;
+}
+
+#footer.box {
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+#footer  .quick-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+#footer  .quick-menu .item {
+    margin-right: 20px;
+    color: #060606;
+}
+
+#footer form {
+    display: flex;
+    align-items: center;
+}
+#footer #gioithieu{
+    color: #020202;
+    text-transform: uppercase;
+}
+#footer  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: rgb(0, 0, 0);
+}
+.end {
+    padding: 10px;
+    background-color: #18aebc;
+}
+.end p{
+    margin-top: 15px;
+}
+  
+  

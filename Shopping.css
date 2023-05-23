@@ -1,0 +1,122 @@
+.hinhdaidien{
+    height: 100px;
+}
+.d-flex{
+    background-color: #7ecdf5;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar:hover{
+    background-color: #ff9800;
+}
+.dropdown-menu{
+    background-color: #007bff;
+    height: 200px;
+}
+.dropdown-menu a:hover{
+    color: white;
+    background-color: #ff9800;
+}
+.input-group-append{
+    background-color: #ff9800;
+}
+.input-group-append a{
+    text-decoration: none;
+}
+.active{
+    list-style: none;
+}
+.active img{
+    width: 80%;
+    height:400px;
+    padding-left: 15px;
+    margin-left:25px ;
+}
+.stars{
+    color: red;
+}
+h4{
+    color: rgb(255, 17, 17);
+}
+.size{
+    border: 1px solid blue;
+    padding: 7px;
+}
+.action{
+    border: 5px solid rgb(182, 39, 27);
+    width: 175px;
+    background-color: goldenrod;
+}
+.action:hover{
+    color: aliceblue;
+    background-color: rgb(135, 92, 61);
+}
+.size:hover{
+    background-color: #020202;
+    color: whitesmoke;
+}
+.form-control{
+    width: 60px;
+}
+#saleoff {
+    background-color: #00bbff;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7ecdf5;
+    padding: 20px;
+    color: #080707;
+}
+
+#footer.box {
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+#footer  .quick-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+#footer  .quick-menu .item {
+    margin-right: 20px;
+    color: #060606;
+}
+
+#footer form {
+    display: flex;
+    align-items: center;
+}
+#footer #gioithieu{
+    color: #020202;
+    text-transform: uppercase;
+}
+#footer  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: rgb(0, 0, 0);
+}
+.end {
+    padding: 10px;
+    background-color: #18aebc;
+}
+.end p{
+    margin-top: 15px;
+}
+  
+
+    
+
